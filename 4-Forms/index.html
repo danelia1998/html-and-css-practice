@@ -10,8 +10,8 @@
     <form action="/">
         <p>
             <label>
-                Phone :
-                <input type="number" name="Phone" required>
+                Name 
+                <input type="text" name="Text" required>
                 
             </label>
             
@@ -19,7 +19,7 @@
         </p>
         <p>
             <label>
-                E-mail :
+                Email 
                 <input type="email" name="E-mail" required>
                 
             </label>
@@ -27,7 +27,7 @@
 
         <p>
             <label>
-                Password :
+                Password 
                 <input type="password" name="Password" required>
             </label>
                 
@@ -35,46 +35,52 @@
 
         <p>
             <label>
-                Confirm Password :
-                <input type="password" name="Confirm password" required>
+                Number
+                <input type="number" name="Number" required>
             </label> 
         </p>
         <p>
             <label>
-                Nickname :
-                <input type="text" name="Nickname" required>
-            </label> 
-        </p>
-
-        <p>
-            <label>
-                Habitual Residence :
-                <select name="country" required>
-                    <option value="Zhejiang">Zhejiang</option>
-                    <option value="Hangzhou">Hangzhou</option>
-                    <option value="West Lake">West Lake</option>
-                </select>
+                Date
+                <input type="date" name="Date" required>
             </label> 
         </p>
 
         <p>
             <label>
-                Website :
-                <input type="text" name="Website" placeholder="website" required>
+                Time
+                <input type="time" name="Time" required>
             </label> 
         </p>
 
         <p>
             <label>
-                <input type="checkbox" required>
-                i have read file <a href="https://www.google.com/">agreement</a> 
-            </label>
-
+                Color
+                <input type="color" name="Color" required>
+            </label> 
         </p>
 
         <p>
-            <input type="submit" name="Register">
+            <label>
+                Range
+                <input type="range" name="Range" required>
+            </label> 
         </p>
+
+        <p>
+            <label>
+                Description
+                <textarea name="Description" cols="30" rows="10" required></textarea>
+
+            </label> 
+        </p>
+        <hr>
+        <p>
+            <input type="submit" name="Submit">
+            <input type="reset" name="Clear">
+        </p>
+        
+            
     </form>
 </body>
 </html>
