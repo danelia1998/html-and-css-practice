@@ -29,6 +29,10 @@
     font-size: 60px;
 }
 
+.ghost {
+    background-color: transparent !important
+}
+
 .btn.danger {
     color: red;
     background-color: grey;
