@@ -1,0 +1,27 @@
+body {
+    background-color:goldenrod;
+}
+
+h2 {
+    color: red;
+    font-size: 30px;
+
+}
+
+.link h2{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.link:hover h2{
+    color: brown;
+}
+
+#link2 h2{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+#link2:hover h2{
+    color: chartreuse
+}
