@@ -1,0 +1,12 @@
+.eachDiv {
+    border: 1px solid grey;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+
+.eachDiv .image {
+    width: 200px;
+    height: 200px;
+}
