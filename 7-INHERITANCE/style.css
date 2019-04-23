@@ -1,0 +1,22 @@
+.btn {
+    
+    border-radius: 8px;
+    border: 2px black;
+    font-size: 60px;
+    
+}
+
+.btn.default {
+    background-color: aliceblue;
+}
+.btn.primary{
+    background-color: blue
+}
+.btn.dashed {
+    border-style: dashed;
+    background-color: transparent;
+}
+.btn.danger {
+    color: red;
+    background-color: grey;
+}
