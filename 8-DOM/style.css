@@ -1,12 +1,48 @@
 .eachDiv {
     border: 1px solid grey;
-    width: 200px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     display: inline-block;
     margin: 10px 10px 10px 10px;
 }
 
-.eachDiv .image {
-    width: 200px;
-    height: 200px;
+p {
+    padding-left: 10px;
+    margin: 10px 10px 10px 10px;
+}
+p.notification{
+    display: inline-block;
+}
+img.last{
+    margin-right: 210px;
+}
+#more{
+    padding-left: 17px
+
+}
+
+.profilephoto {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 20px 0px 0px 10px;
+}
+.personalInfo{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+#upload{
+    font-size: 20px;
+}
+.notification {
+    width: 20px;
+    margin: 50px 5px 5px 5px;
+    height: 20px;
+}
+
+
+span {
+    margin: 8px 8px 8px 8px;
 }
