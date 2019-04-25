@@ -1,0 +1,55 @@
+main{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.row-1{
+    background-color: green;
+    width: 100px;
+    height: 150px;
+    float: left;
+    clear: both;
+}
+.row-2{
+    background-color:red;
+    width: 100px;
+    height: 250px;
+    float: left;
+    clear: both;
+}
+.col-1{
+    float: left;
+}
+.col-3{
+    width: 500px;
+    height: 400px;
+    float: right;
+    background-color: chocolate;
+}
+
+.col-4{
+    background-color:yellow;
+    width: 100px;
+    height: 150px;
+    float: left;
+    
+}
+.col-5{
+    background-color: black;
+    width: 400px;
+    height: 150px;
+    float: left;
+    
+}
+.col-6{
+    background-color: green;
+    width: 100px;
+    height: 75px;
+    float: right;
+}
+.col-7{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 75px;
+    float: right;
+}
