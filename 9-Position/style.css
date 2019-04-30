@@ -3,85 +3,29 @@
     height: 100%;
     position: relative;
 }
-.main .text{
+.background{
     background-color: black;
-    opacity: 0.4;
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+}
+.background img {
     width: 100%;
     height: 100%;
-    position: absolute;
-}
+    position: relative;
+}    
 
-.conteiner{
-    border: 2px solid rgb(175, 175, 175);
-    border-radius: 5px;
-    height: 200px;
-    width: 600px;
+.sport {
+    width: 200px;
+    height: 60px;
+    background-color: black;
     position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%,-50%);
-    background-color: white;
-}
-
-.conteiner .x{
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    font-size: 20px;
-}
-.header h1{
-    position: absolute;
-    left: 20px;
-    top: 0px;
-    margin: 10px;
-}
-#first{
-    position: absolute;
-    top:40px;
-    
-}
-
-#hr1{
-    margin-top: 60px;
-    opacity: 0.5;
-}
-
-#span{
-    padding-left:30px ;
-    position: absolute;
-    top: 100px;
-    font-size: 20px;
-    opacity: 0.6;
-}
-
-#hr2{
-    margin-top: 85px;
-    opacity: 0.5;
-}
-
-.ok{
-    width: 60px;
-    height: 30px;
-    border: 1px solid rgb(98, 98, 216);
-    background-color:rgb(98, 98, 216);
     text-align: center;
-    padding: 6px;
-    color: white;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 4px;
-    right: 8px;
-}
-.cancel{
-    width: 60px;
-    height: 30px;
-    border: 1px solid rgb(175, 175, 175);
-    background-color:white;
-    text-align: center;
-    padding: 6px;
-    color: black;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 4px;
-    right: 100px;
+    font-size: 60px;
+    padding: 20px;
+    color: aliceblue;
+    top: 70%;
+    right: 45%;
+
+
 }
