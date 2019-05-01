@@ -1,52 +1,92 @@
 main{
-    width: 600px;
+    width: 940px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    
-}
-.row{
-    display: flex;
-    flex-grow: 1;
-    min-height: 150px;
-}
-.row2{
-    display: flex;
-    flex-grow: 3;
-    min-height: 50px;
-}
-.row-3{
-    display: flex;
-    flex-grow: 1;
-    min-height: 50px;
-    flex-direction: column;
-}
-.col-1{
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-
-}
-.col-2{
-    display: flex;
-    flex-grow: 1;
-    flex-direction: row;
-
-}
-.col-3{
-    display: flex;
-    flex-grow: 7;
-    flex-direction: row;
-
 }
 
-.cell{
+.container-1, .container-2, .container-3, .container-4, .container-5{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.container-1 .block{
+    width: 220px;
+    height: 200px;
+    justify-content: space-between;
     background-color: aquamarine;
-    margin: 10px;
-    min-height: 50px;
+    margin: 0 20px;
 }
-.row-2{
-    display: flex;
-    flex-grow: 2;
-    min-height: 200px;
+
+.container-1 .block:first-child{
+    margin-left: 0;
+}
+
+.container-1 .block:last-child{
+    margin-right: 0;
+}
+
+.container-2 .block{
+    width: 100px;
+    height: 100px;
+    justify-content: space-between;
+    background-color: aquamarine;
+    margin: 40px 20px 0;
+}
+
+.container-2 .block:first-child{
+    margin-left: 0;
+}
+
+.container-2 .block:last-child{
+    margin-right: 0;
+}
+
+.container-3 .block:first-child{
+    width: 695px;
+    height: 200px;
+    justify-content: space-between;
+    background-color: aquamarine;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.container-3 .block:last-child{
+    width: 200px;
+    height: 200px;
+    justify-content: space-between;
+    background-color: aquamarine;
+    margin-top: 40px;
+}
+
+
+.container-4 .block:last-child{
+    width: 695px;
+    height: 200px;
+    justify-content: space-between;
+    background-color: aquamarine;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.container-4 .block:first-child{
+    width: 200px;
+    height: 200px;
+    justify-content: space-between;
+    background-color: aquamarine;
+    margin-top: 40px;
+}
+
+.container-5 .block{
+    width: 450px;
+    height: 200px;
+    justify-content: space-between;
+    background-color: aquamarine;
+    margin: 40px 20px;
+}
+
+.container-5 .block:first-child{
+    margin-left: 0;
+}
+
+.container-5 .block:last-child{
+    margin-right: 0;
 }
