@@ -1,92 +1,329 @@
 main{
-    width: 940px;
+    width: 1000px;
     margin: 0 auto;
 }
 
-.container-1, .container-2, .container-3, .container-4, .container-5{
+.MainCol-1{
     display: flex;
-    box-sizing: border-box;
+    height: 400px;
 }
 
-.container-1 .block{
-    width: 220px;
-    height: 200px;
-    justify-content: space-between;
-    background-color: aquamarine;
-    margin: 0 20px;
+
+
+.container-1, .container-2, .container-3, .container-4, .container-5, .container-5-1, .container-6, .container-7{
+    flex-direction: column;
 }
 
-.container-1 .block:first-child{
-    margin-left: 0;
+.container-1 .col-1{
+    width: 100px;
+    height: 70%;
+    background-color: green;
 }
 
-.container-1 .block:last-child{
-    margin-right: 0;
+.container-1 .col-2{
+    width: 100px;
+    height: 30%;
+    background-color:red;
 }
 
-.container-2 .block{
+.container-2 .col-1{
+    width: 150px;
+    height: 20%;
+    background-color: blue;
+}
+
+.container-2 .col-2{
+    width: 150px;
+    height: 40%;
+    background-color:tomato;
+}
+.container-2 .col-2:last-child{
+    width: 150px;
+    height: 40%;
+    background-color:yellow;
+}
+
+.container-3 .col-1{
+    width: 100px;
+    height: 20%;
+    background-color: greenyellow;
+}
+
+.container-3 .col-2{
+    width: 100px;
+    height: 80%;
+    background-color:gray;
+}
+
+.container-4 .col-1{
+    width: 200px;
+    height: 20%;
+    background-color: red;
+}
+
+.container-4 .col-2{
+    width: 200px;
+    height: 80%;
+    background-color:blueviolet;
+}
+
+
+.container-5 .row-1{
+    width: 250px;
+    height: 60%;
+    display: flex;
+}
+
+.container-5 .row-2{
+    width: 250px;
+    height: 40%;
+}
+
+.container-5 .col-1-1{
+    width: 200px;
+    height: 100%;
+    display: flex;
+}
+
+.col-1-1 .container-5-1 .col-1-1-1{
+    width: 100%;
+    height: 80%;
+    background-color: green;
+}
+
+.container-5-1 .col-1-1-2{
+    width: 200px;
+    height: 20%;
+    background-color: yellow;
+}
+
+
+.container-5 .row-2 .col-2{
+    width: 250px;
+    height: 100%;
+    background-color: blue;
+}
+.container-5 .col-1{
+    display: flex;
+}
+
+.container-5 .col-1-2{
+    width: 50px;
+    height: 100%;
+    background-color: pink;
+}
+
+.container-6 .col-1{
+    width: 100px;
+    height: 100%;
+    background-color: red;
+}
+
+.container-7 .col-1{
+    width: 100px;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+/* Finish MainCol-1 */
+
+.MainCol-2{
+    display: flex;
+    height: 600px;
+    width: 200px;
+}
+
+.MainCol-2-1{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+}
+
+.container-8, .container-9-2{
+    flex-direction: column;
+    display: flex;
+}
+
+
+.container-8 .col-1{
+    width: 350px;
+    height: 80px;
+    background-color: tomato;
+
+}
+.container-8 .col-2{
+    width: 350px;
+    height: 80px;
+    background-color: yellow;
+}
+
+.container-8 .col-3{
+    width: 350px;
+    height: 140px;
+    background-color: green;
+}
+
+.container-9{
+    width: 350px;
+    height: 300px;
+    flex-direction: row;
+    display: flex;
+}
+
+.container-9 .container-9-1 .col-1{
+    width: 100px;
+    height: 300px;
+    background-color: red;
+}
+
+.container-9 .container-9-2 .col-2-1{
+    width: 150px;
+    height: 50px;
+    background-color: burlywood;
+}
+
+.container-9 .container-9-2 .col-2-2{
+    width: 150px;
+    height: 250px;
+    background-color: black;
+}
+
+.container-9-3 .col-1{
+    width: 100px;
+    height: 300px;
+    background-color: palevioletred;
+}
+
+.MainCol-2-2{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+}
+
+.container-10{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container-10-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-10 .col-1{
+    width: 100px;
+    height: 300px;
+    background-color: coral;
+}
+
+.container-10-1 .col-10-1{
     width: 100px;
     height: 100px;
-    justify-content: space-between;
-    background-color: aquamarine;
-    margin: 40px 20px 0;
+    background-color: greenyellow;
 }
 
-.container-2 .block:first-child{
-    margin-left: 0;
-}
-
-.container-2 .block:last-child{
-    margin-right: 0;
-}
-
-.container-3 .block:first-child{
-    width: 695px;
+.container-10-1 .col-10-2{
+    width: 100px;
     height: 200px;
-    justify-content: space-between;
-    background-color: aquamarine;
-    margin-right: 40px;
-    margin-top: 40px;
+    background-color: burlywood;
 }
 
-.container-3 .block:last-child{
+.MainCol-2-2 .col-2{
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+}
+
+.MainCol-3{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-11{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-11 .col-11-1{
+    width: 350px;
+    height: 100px;
+    background-color: black;
+
+}
+
+.container-11 .col-11-2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+
+}
+
+.container-12{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-12 .col-12-1{
+    width: 250px;
+    height: 100px;
+    background-color: yellow;
+
+}
+
+.container-12 .col-12-2{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+
+}
+
+.container-12 .col-12-3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+}
+
+.container-13{
+    display: flex;
+    flex-direction: row;
+}
+
+.col-13-1{
     width: 200px;
+    height: 300px;
+    background-color: red;
+}
+
+.container-13-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-13-1 .col-13-1-1{
+    width: 250px;
     height: 200px;
-    justify-content: space-between;
-    background-color: aquamarine;
-    margin-top: 40px;
+    background-color: green;
+}
+
+.container-13-1 .col-13-1-2{
+    width: 250px;
+    height: 100px;
+    background-color: grey;
 }
 
 
-.container-4 .block:last-child{
-    width: 695px;
-    height: 200px;
-    justify-content: space-between;
-    background-color: aquamarine;
-    margin-left: 40px;
-    margin-top: 40px;
+.container-14{
+    display: flex;
+    flex-direction: row;
 }
 
-.container-4 .block:first-child{
-    width: 200px;
-    height: 200px;
-    justify-content: space-between;
-    background-color: aquamarine;
-    margin-top: 40px;
-}
-
-.container-5 .block{
+.container-14 .col-14-1{
     width: 450px;
-    height: 200px;
-    justify-content: space-between;
-    background-color: aquamarine;
-    margin: 40px 20px;
-}
+    height: 100px;
+    background-color: black;
 
-.container-5 .block:first-child{
-    margin-left: 0;
-}
-
-.container-5 .block:last-child{
-    margin-right: 0;
 }
