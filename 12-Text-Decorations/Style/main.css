@@ -1,160 +1,238 @@
 *{
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 main{
-    width: 1172px;
+    width: 1173px;
     margin: auto;
-    margin-top: 20px;
-}
-article .poster{
-    width: 1170px;
-    height: 800px;
-    background-color: #ECF0F1;
-    margin-bottom: 48px;
+    margin-top: 30px;
 }
 
-.content header{
-    border-bottom: 1px solid #ECF0F1;
-    padding-bottom: 19px;
-    margin-bottom: 23px;
-}
-
-.content header h3{
-    font-family: 'Roboto';
-    font-size: 36px;
-    line-height: 36px;
-    color: #2C3E50;
-    margin-bottom: 8px;
-}
-
-.content header p{
-    font-family: 'Roboto';
-    font-size: 14px;
-    line-height: 36px;
-    color: #A1B1BC;
-    letter-spacing: -0.1px;
-    word-spacing: -0.1px
-}
-
-
-.content header p span::after{
-    content: "";
-    width: 1px;
-    height: 12px;
-    background-color: #EBEBEB;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 12px;
-    margin-right: 13px;
-}
-.content header p span:last-child::after{
-    display: none;
-}
-.content .text{
-    margin-bottom: 38px;
-}
-
-.content .text p{
-    font-family: 'Roboto';
-    font-size: 14px;
-    color: #A1B1BC;
-    line-height: 23px;
-    word-spacing: -0.1px;
-}
-
-.content .text a{
-    font-family: 'Roboto';
-    font-size: 14px;
-    color: #21C2F8;
-    line-height: 24px;
-    text-decoration: none;
-}
-
-
-.content .blog{
-    height: 165px;
-    margin-left: 30px;
-    border: 1px solid #ECF0F1;
-    position: relative;
-    margin-bottom: 35px;
-}   
-
-.content .blog .line{
-    background-color: #21C2F8;
-    width: 8px;
-    height: 165px;
-    position: absolute;
-    float: left;
-
-}
-
-.content .blog .text2{
-    margin: 42px 220px 42px 68px;
-    float: right;
-}
-
-
-.content .blog .text2 h3{
-    font-family: 'Roboto';
-    font-size: 24px;
-    line-height: 24px;
-    color: #A1B1BC;
-    margin-bottom: 11px;
-
-}
-
-.content .blog .text2 p{
-    font-family: 'Roboto';
-    font-size: 16px;
-    line-height: 26px;
-    color: #A1B1BC;
-    word-spacing: -0.04px;
-}
-.content .Firstletter{
-    margin-bottom: 39px;
-    position: relative;
-}
-
-.content .Firstletter p{
-    font-family: 'Roboto';
-    font-size: 14px;
-    line-height: 23px;
-    color: #A1B1BC;
-    margin-top: -6px;
-    
-}
-
-.content .Firstletter p::first-letter{
-    font-family: 'Roboto';
-    font-size: 30px;
-    line-height: 23px;
-    color: #21C2F8;
-    display: inline-block;
-    background-color: #34495E;
-    text-align: center;
-    padding: 9px 12px;
-    float: left;
-    margin-right: 5px;
-    margin-top: 5px;
-    
-}
-
-.content .headingTwo h3{
+.mainHeader1 h3{
     font-family: 'Roboto';
     font-size: 30px;
     line-height: 30px;
     color: #34495E;
-    margin-bottom: 14px;
+    font-weight: normal;
+    margin-bottom: 15px;
 }
 
-.content .headingTwo p{
+.mainHeader1 p{
     font-family: 'Roboto';
     font-size: 14px;
     line-height: 23px;
     color: #A1B1BC;
-    margin-bottom: 120px;
+    font-weight: normal;
+    margin-bottom: 26px;
+}
 
+.mainHeader2 h3{
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 30px;
+    color: #34495E;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.mainHeader2 p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+    font-weight: normal;
+    margin-bottom: 4px
+}
+
+
+.lists{
+    display: flex;
+    margin-bottom: 33px;
+}
+
+.lists .col-1, .lists .col-2, .lists .col-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 29px;
+}
+
+.lists .col-1{
+    margin-left: 0px;
+}
+
+.lists ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.lists .block{
+    width: 17px;
+    height: 17px;
+    background-color: #34495E;
+    float: left;
+    margin-right: 19px;
+    border-radius: 3px;
+    margin-bottom: 9px;
+}
+
+.lists .col-2 .block{
+    background-color: #fff;
+    border: 1px solid #A1B1BC;
+}
+
+.lists span{
+   float: right;
+   font-size: 14px;
+   line-height: 30px;
+   color: #A1B1BC;
+   margin-top: -8px;
+   letter-spacing: 0.5px;
+    word-spacing: 1px;
+  
+}
+.example{
+    width: 100%;
+    height: 190px;
+    background-color: #ECF0F1;
+    padding: 23px 33px;
+    margin-bottom: 24px;
+}
+
+.example div{
+    width: 14%;
+
+}
+.example div p {
+    color: #A1B1BC;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Arial'
+}
+
+.example div p span{
+    padding-left: 15px;
+}
+
+.text{
+    margin-bottom: 24px;
+}
+
+.text p {
+    color: #A1B1BC;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: 'Roboto'
+}
+
+.PosterHead{
+    margin-bottom: 48px;
+}
+
+.PosterHead div{
+    position: relative;
+}
+
+.PosterHead .Poster{
+    width: 370px;
+    height: 400px;
+    background-color: #ECF0F1; 
+    float: left;
+    margin-right: 30px;
+}
+
+.PosterHead p {
+    color: #A1B1BC;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: 'Roboto';
+    margin-bottom: 23px;
+   
+}
+
+.info{
+    border: 1px solid #ECF0F1;
+    margin-bottom: 50px;
+}
+
+.info .simbol{
+    width: 50px;
+    height: 50px;
+    background-color: #34495E;
+    float: left;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-top: 4px;
+ 
+}
+
+.info .simbol span{
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #fff;
+}
+
+.info .links {
+    padding: 12px;
+}
+.info .links a {
+    text-decoration: none;
+    color: #A1B1BC;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+    word-spacing: -2.5px
+
+}
+.info .links a:hover{
+    text-decoration: underline;
+    color: #1ABC9C;
+}
+
+.contact{
+    height: 160px;
+    width: 100%;
+    background-color: #F9FBFB;
+    border: 1px solid #ECF0F1;
+    padding: 27px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.contact .picture{
+    width: 100px;
+    height: 100px;
+    background-color: #A1B1BC;
+    border: 3px solid white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 2px grey;
+    float: left;
+    margin-right: 35px;
+}
+
+.contact h5{
+    font-size: 18px;
+    line-height: 24px;
+    color: #2C3E50;
+    font-family: 'Roboto';
+    letter-spacing: 0.2px;
+
+}
+
+.contact span{
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    font-family: 'Roboto';
+}
+
+.contact p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    font-family: 'Roboto';
+    font-style: italic;
+    padding-top: 8px;
 }
