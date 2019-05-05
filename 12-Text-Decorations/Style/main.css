@@ -1,238 +1,179 @@
 *{
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 main{
     width: 1173px;
-    margin: auto;
-    margin-top: 30px;
+    margin: 30px auto;
 }
 
-.mainHeader1 h3{
-    font-family: 'Roboto';
-    font-size: 30px;
-    line-height: 30px;
-    color: #34495E;
-    font-weight: normal;
-    margin-bottom: 15px;
+main header{
+  margin-bottom: 50px;  
+  display: flex;
+  justify-content: space-between;
 }
 
-.mainHeader1 p{
-    font-family: 'Roboto';
-    font-size: 14px;
-    line-height: 23px;
-    color: #A1B1BC;
-    font-weight: normal;
-    margin-bottom: 26px;
-}
-
-.mainHeader2 h3{
-    font-family: 'Roboto';
-    font-size: 30px;
-    line-height: 30px;
-    color: #34495E;
-    font-weight: normal;
-    margin-bottom: 15px;
-}
-
-.mainHeader2 p{
-    font-family: 'Roboto';
-    font-size: 14px;
-    line-height: 23px;
-    color: #A1B1BC;
-    font-weight: normal;
-    margin-bottom: 4px
-}
-
-
-.lists{
-    display: flex;
-    margin-bottom: 33px;
-}
-
-.lists .col-1, .lists .col-2, .lists .col-3{
+main header div{
     display: flex;
     flex-direction: column;
-    margin-left: 29px;
 }
 
-.lists .col-1{
-    margin-left: 0px;
-}
-
-.lists ul li{
-    display: inline-block;
-    position: relative;
-}
-
-.lists .block{
-    width: 17px;
-    height: 17px;
-    background-color: #34495E;
-    float: left;
-    margin-right: 19px;
-    border-radius: 3px;
-    margin-bottom: 9px;
-}
-
-.lists .col-2 .block{
-    background-color: #fff;
-    border: 1px solid #A1B1BC;
-}
-
-.lists span{
-   float: right;
-   font-size: 14px;
-   line-height: 30px;
-   color: #A1B1BC;
-   margin-top: -8px;
-   letter-spacing: 0.5px;
-    word-spacing: 1px;
-  
-}
-.example{
-    width: 100%;
-    height: 190px;
-    background-color: #ECF0F1;
-    padding: 23px 33px;
-    margin-bottom: 24px;
-}
-
-.example div{
-    width: 14%;
-
-}
-.example div p {
-    color: #A1B1BC;
-    font-size: 14px;
-    line-height: 24px;
-    font-family: 'Arial'
-}
-
-.example div p span{
-    padding-left: 15px;
-}
-
-.text{
-    margin-bottom: 24px;
-}
-
-.text p {
-    color: #A1B1BC;
-    font-size: 14px;
-    line-height: 23px;
-    font-family: 'Roboto'
-}
-
-.PosterHead{
-    margin-bottom: 48px;
-}
-
-.PosterHead div{
-    position: relative;
-}
-
-.PosterHead .Poster{
-    width: 370px;
-    height: 400px;
-    background-color: #ECF0F1; 
-    float: left;
-    margin-right: 30px;
-}
-
-.PosterHead p {
-    color: #A1B1BC;
-    font-size: 14px;
-    line-height: 23px;
-    font-family: 'Roboto';
-    margin-bottom: 23px;
-   
-}
-
-.info{
-    border: 1px solid #ECF0F1;
-    margin-bottom: 50px;
-}
-
-.info .simbol{
-    width: 50px;
-    height: 50px;
-    background-color: #34495E;
-    float: left;
-    margin-right: 20px;
-    padding-left: 10px;
-    padding-top: 4px;
- 
-}
-
-.info .simbol span{
+main header h3{
     font-size: 30px;
+    line-height: 20px;
     font-family: 'Roboto';
-    font-weight: bold;
-    color: #fff;
+    color: #2C3E50;
+    font-weight: normal;
 }
 
-.info .links {
-    padding: 12px;
-}
-.info .links a {
-    text-decoration: none;
+main header span{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Roboto';
     color: #A1B1BC;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.9px;
-    word-spacing: -2.5px
-
-}
-.info .links a:hover{
-    text-decoration: underline;
-    color: #1ABC9C;
 }
 
-.contact{
-    height: 160px;
-    width: 100%;
-    background-color: #F9FBFB;
-    border: 1px solid #ECF0F1;
-    padding: 27px;
+.mainrows{
+    margin-bottom: 77px;
     position: relative;
-    margin-bottom: 30px;
 }
 
-.contact .picture{
-    width: 100px;
-    height: 100px;
+.mainrows .row{
+    border: 1px solid #ECF0F1;
+    margin-bottom: 25px;
+    display: flex;
+    padding: 28px 28px 23px 28px;
+}
+
+.mainrows .box{
+    width: 70px;
+    height: 70px;
     background-color: #A1B1BC;
     border: 3px solid white;
-    border-radius: 3px;
-    box-shadow: 1px 1px 2px 2px grey;
-    float: left;
-    margin-right: 35px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px 0px grey;
+    position: absolute;
+    left: 35px;
+}
+.mainrows .row1:first-child .box{
+    top: 34px;
+}
+.mainrows .row3 .box{
+    left: 104px;
 }
 
-.contact h5{
+.mainrows .content {
+    position: relative;
+    margin-left: 109px;
+}
+
+.mainrows .row3  .content {
+    margin-left: 128px;
+}
+
+.mainrows .content h4{
+    font-family: 'Roboto';
+    font-weight: 400;
     font-size: 18px;
     line-height: 24px;
     color: #2C3E50;
-    font-family: 'Roboto';
-    letter-spacing: 0.2px;
-
+    margin-bottom: 2px;
 }
 
-.contact span{
-    font-size: 14px;
+.mainrows .content span{
+    font-family: 'Roboto';
+    font-size: 13px;
     line-height: 24px;
     color: #A1B1BC;
-    font-family: 'Roboto';
 }
 
-.contact p{
-    font-size: 14px;
-    line-height: 24px;
-    color: #A1B1BC;
+.mainrows .content p{
     font-family: 'Roboto';
     font-style: italic;
-    padding-top: 8px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    margin-top: 5px
 }
+
+.mainrows .content .button {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    color: white;
+    background-color: #2C3E50;
+    border: 0;
+    border-radius: 2px;
+    width: 60px ;   
+    padding: 4.5px;
+}
+
+.mainrows .row2 .content .button{
+   background-color: #A1B1BC;
+}
+
+.mainrows .row1-1{
+    padding-top: 25px;
+}
+
+.mainrows .row1-2{
+    padding-top: 29px;
+}
+
+.mainrows .row3{
+    margin-left: 50px;
+    padding-top: 29px
+}
+
+.mainrows .row3-1{
+    padding-top: 25px
+}
+
+.contact h3{
+    color: #2C3E50;
+    font-size: 30px;
+    line-height: 20px;
+    font-family: 'Roboto';
+    margin-bottom: 50px;
+}
+
+.contact .input{
+   width: 370px;
+   background-color: #F7F8F9;
+   border: 1px solid #ECF0F1;
+   padding: 17px;
+   margin-right: 27px;
+   letter-spacing: 1px;   
+   margin-bottom: 20px;
+}
+.contact .email{  
+    background-color: #fff; 
+ }
+
+.contact .text{
+    margin-right: 0px;
+}
+
+.contact textarea{
+    width: 100%;
+    height: 300px;
+    background-color: #F7F8F9;
+    border: 1px solid #ECF0F1;
+    margin-bottom: 15px;
+}
+
+.contact .submit{
+    width: 190px;
+    background-color: #2C3E50;
+    padding: 16px;
+    font-size: 15px;
+    line-height: 19px;
+    border-radius: 5px;
+    border: 0;
+    letter-spacing: 1px;
+    word-spacing: 3px;    
+    font-family: 'Roboto';
+    color: #fff;
+ }
